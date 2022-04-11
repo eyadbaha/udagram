@@ -10,7 +10,7 @@ orbs:
 
 jobs:
   build:
-  docker:
+    docker:
       - image: "cimg/base:stable"
     steps:
       - node/install
