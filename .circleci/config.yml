@@ -16,7 +16,7 @@ jobs:
       - aws-cli/setup
       - eb/setup
       - run:
-          name: Environment Setup
+          name: Environment Variables Setup
           command: |
             npm run env-setup
       - run: #start running the deployment process
