@@ -45,7 +45,7 @@ With this app comes various NPM scripts for maintenance, to use them run "npm ru
 
 - backend:install (installs node modules needed for the api)
 
-- frontend:test (tests the frontend application)
+- frontend:test (test the frontend application)
 
 - backend:test (does nothing)
 
