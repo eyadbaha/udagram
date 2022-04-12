@@ -15,6 +15,10 @@ jobs:
       - checkout
       - aws-cli/setup
       - eb/setup
+      - run:
+          name: Environment Setup
+          command: |
+            npm run env-setup
       - run: #start running the deployment process
           name: Front-End Install
           command: |
