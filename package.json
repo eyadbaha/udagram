@@ -2,6 +2,8 @@
   "scripts": {
     "frontend:install": "cd udagram-frontend && npm install",
     "backend:install": "cd udagram-api && npm install",
+    "frontend:test": "cd udagram-frontend && npm install && npm run test",
+    "backend:test": "cd udagram-api && npm install && run npm test",
     "frontend:build": "cd udagram-frontend && npm run build",
     "backend:build": "cd udagram-api && npm run build",
     "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh && cd udagram-api && eb deploy"
