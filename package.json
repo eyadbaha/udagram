@@ -6,6 +6,7 @@
     "backend:test": "cd udagram-api && npm install && run npm test",
     "frontend:build": "cd udagram-frontend && npm run build",
     "backend:build": "cd udagram-api && npm run build",
+    "ebv-setup": "chmod +x bin/env-setup.sh && cd udagram-api && ../bin/deploy.sh",
     "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh && cd udagram-api && eb deploy"
   }
 }
