@@ -6,6 +6,6 @@
     "backend:test": "cd udagram-api && npm install && run npm test",
     "frontend:build": "cd udagram-frontend && npm run build",
     "backend:build": "cd udagram-api && npm run build",
-    "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh && cd udagram-api && eb setenv POSTGRES_HOST=$POSTGRES_HOST && eb deploy"
+    "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh && cd udagram-api && eb envset POSTGRES_HOST=$POSTGRES_HOST && eb deploy"
   }
 }
