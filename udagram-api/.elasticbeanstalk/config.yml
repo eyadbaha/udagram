@@ -1,12 +1,9 @@
 branch-defaults:
   default:
-    environment: Udagramapi-env
-environment-defaults:
-  Udagramapi-env:
-    branch: null
-    repository: null
+    environment: udagramapi-env
 global:
   application_name: udagram-api
+  branch: null
   default_ec2_keyname: null
   default_platform: Node.js 16 running on 64bit Amazon Linux 2
   default_region: us-east-1
@@ -14,6 +11,7 @@ global:
   instance_profile: null
   platform_name: null
   platform_version: null
-  profile: default
+  profile: eb-cli
+  repository: null
   sc: null
   workspace_type: Application
